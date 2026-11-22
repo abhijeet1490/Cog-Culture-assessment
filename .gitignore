@@ -1,0 +1,12 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
